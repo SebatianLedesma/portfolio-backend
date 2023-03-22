@@ -21,21 +21,25 @@ public class SkillController {
 
     @GetMapping("/{skillId}")
     public Skill listarSkillPorId(@PathVariable("skillId") Long skillId){
+
         return skillService.obtenerSkill(skillId);
     }
 
     @GetMapping("/")
     public ResponseEntity<?> listarSkills(){
+
         return ResponseEntity.ok(skillService.obtenerSkills());
     }
 
     @PutMapping("/")
     public Skill editarSkill(@RequestBody Skill skill){
+
         return skillService.editarSkill(skill);
     }
 
     @DeleteMapping("/{skillId}")
     public void eliminarSkill(@PathVariable("skillId") Long skillId){
+
         skillService.eliminarSkill(skillId);
     }
 }

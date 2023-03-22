@@ -14,6 +14,7 @@ public class Experiencia {
     private String inicio;
     private String fin;
     private String direccion;
+    private String imagen;
     private boolean enabled = true;
 
     public Experiencia(){
@@ -74,5 +75,13 @@ public class Experiencia {
 
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
     }
 }

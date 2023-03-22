@@ -3,23 +3,21 @@ package com.portfolio.back.modelo;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "skills")
+@Table(name = "skill")
 public class Skill {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nombre;
-    private int porcentaje;
+    private String porcentaje;
     private boolean enabled = true;
 
     public Skill(){
 
     }
 
-    public Long getId() {
-        return id;
-    }
+    public Long getId() {return id;}
 
     public void setId(Long id) {
         this.id = id;
@@ -33,11 +31,11 @@ public class Skill {
         this.nombre = nombre;
     }
 
-    public int getPorcentaje() {
+    public String getPorcentaje() {
         return porcentaje;
     }
 
-    public void setPorcentaje(int porcentaje) {
+    public void setPorcentaje(String porcentaje) {
         this.porcentaje = porcentaje;
     }
 

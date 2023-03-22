@@ -17,21 +17,25 @@ public class SkillServiceImpl implements SkillService {
 
     @Override
     public Skill agregarSkill(Skill skill) {
+
         return skillRepository.save(skill);
     }
 
     @Override
     public Skill editarSkill(Skill skill) {
+
         return skillRepository.save(skill);
     }
 
     @Override
     public Set<Skill> obtenerSkills() {
+
         return new LinkedHashSet<>(skillRepository.findAll());
     }
 
     @Override
     public Skill obtenerSkill(Long skillId) {
+
         return skillRepository.findById(skillId).get();
     }
 
