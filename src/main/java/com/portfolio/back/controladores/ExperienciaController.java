@@ -34,7 +34,7 @@ public class ExperienciaController {
         return experienciaService.editarExperiencia(experiencia);
     }
 
-    @DeleteMapping("/{eperienciaId}")
+    @DeleteMapping("/{experienciaId}")
     public void eliminarExperiencia(@PathVariable("experienciaId") Long experienciaId){
         experienciaService.eliminarExperiencia(experienciaId);
     }
