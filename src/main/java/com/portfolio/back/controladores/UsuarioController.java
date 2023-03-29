@@ -12,7 +12,8 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin("*")
+//@CrossOrigin("*")
+@CrossOrigin(origins = "https://portfolio-frontend-bfcaf.web.app/")
 public class UsuarioController {
 
     @Autowired

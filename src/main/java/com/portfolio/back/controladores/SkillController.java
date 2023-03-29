@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/skill")
-@CrossOrigin("*")
+//@CrossOrigin("*")
+@CrossOrigin(origins = "https://portfolio-frontend-bfcaf.web.app/")
 public class SkillController {
     @Autowired
     private SkillService skillService;
