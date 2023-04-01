@@ -1,4 +1,3 @@
-EXPOSE 8080
 FROM amazoncorretto:11-alpine-jdk
 MAINTAINER MAURIANDER
 COPY target/portfolio-backend-0.0.1-SNAPSHOT.jar portfolio-backend-0.0.1-SNAPSHOT.jar
