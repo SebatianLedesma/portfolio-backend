@@ -57,6 +57,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/generate-token",
                         "/usuarios/",
                         "/educacion/",
+                        "/admin/",
                         "/experiencia/",
                         "/skill/",
                         "/proyecto/").permitAll()
