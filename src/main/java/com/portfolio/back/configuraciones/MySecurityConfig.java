@@ -56,8 +56,8 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/generate-token",
                         "/usuarios/",
-                        "/educacion",
-                        "/experiencia",
+                        "/educacion/",
+                        "/experiencia/",
                         "/skill/",
                         "/proyecto/").permitAll()
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
