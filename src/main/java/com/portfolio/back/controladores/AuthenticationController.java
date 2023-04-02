@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.security.Principal;
 
 @RestController
+@RequestMapping("/auth")
 //@CrossOrigin("*")
 @CrossOrigin(origins = "https://portfolio-frontend-bfcaf.web.app")
 public class AuthenticationController {
