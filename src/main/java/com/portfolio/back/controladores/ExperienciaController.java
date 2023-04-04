@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/experiencia")
-@CrossOrigin("*")
+//@CrossOrigin("*")
+@CrossOrigin("https://portfolio-frontend-bfcaf.web.app/")
 public class ExperienciaController {
     @Autowired
     private ExperienciaService experienciaService;

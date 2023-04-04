@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin("*")
+//@CrossOrigin("*")
+@CrossOrigin("https://portfolio-frontend-bfcaf.web.app/")
 public class EducacionController {
 
     @Autowired
