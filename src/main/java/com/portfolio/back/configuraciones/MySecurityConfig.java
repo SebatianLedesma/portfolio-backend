@@ -58,6 +58,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
                         "/usuarios",                        
                         "/educacion",                        
                         "/experiencia",
+                        "/admin",
                         "/skill",
                         "/proyecto").permitAll()
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
