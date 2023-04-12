@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/skill")
 //@CrossOrigin("*")
-@CrossOrigin("https://portfolio-frontend-bfcaf.firebaseapp.com/")
+@CrossOrigin("https://portfolio-frontend-bfcaf.firebaseapp.com")
 public class SkillController {
     @Autowired
     private SkillService skillService;
