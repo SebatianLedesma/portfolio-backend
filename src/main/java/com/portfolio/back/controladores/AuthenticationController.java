@@ -18,7 +18,7 @@ import java.security.Principal;
 
 @RestController
 //@CrossOrigin("*")
-@CrossOrigin("https://portfolio-frontend-bfcaf.firebaseapp.com")
+@CrossOrigin("https://portfolio-frontend-bfcaf.web.app/")
 public class AuthenticationController {
 
     @Autowired
