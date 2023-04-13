@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/proyecto")
 //@CrossOrigin("*")
-@CrossOrigin("https://portfolio-frontend-bfcaf.web.app/")
+@CrossOrigin("https://portfolio-frontend-bfcaf.web.app")
 public class ProyectoController {
 
     @Autowired
