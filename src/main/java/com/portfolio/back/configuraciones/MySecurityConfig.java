@@ -55,12 +55,12 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
                 .disable()
                 .authorizeRequests()
                 .antMatchers("/generate-token",
-                        "/usuarios",                        
-                        "/educacion",                        
-                        "/experiencia",
-                        "/admin",
-                        "/skill",
-                        "/proyecto").permitAll()
+                        "/usuarios/",
+                        "/educacion/",
+                        "/experiencia/",
+                        "/admin/",
+                        "/skill/",
+                        "/proyecto/").permitAll()
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
                 .anyRequest().authenticated()
                 .and()
