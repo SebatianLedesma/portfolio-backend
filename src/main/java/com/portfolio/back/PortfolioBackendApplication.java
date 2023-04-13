@@ -23,7 +23,7 @@ public class PortfolioBackendApplication implements CommandLineRunner {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/greeting-javaconfig").allowedOrigins("https://portfolio-frontend-bfcaf.firebaseapp.com");
+				registry.addMapping("/**").allowedOrigins("https://portfolio-frontend-bfcaf.firebaseapp.com");
 			}
 		};
 	}
