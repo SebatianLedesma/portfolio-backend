@@ -8,6 +8,7 @@ com\portfolio\back\modelo\Educacion.class
 com\portfolio\back\repositorios\ExperienciaRepository.class
 com\portfolio\back\controladores\UsuarioController.class
 com\portfolio\back\modelo\JwtRequest.class
+com\portfolio\back\PortfolioBackendApplication$1.class
 com\portfolio\back\servicios\impl\EducacionServiceImpl.class
 com\portfolio\back\configuraciones\JwtAuthenticationFilter.class
 com\portfolio\back\servicios\impl\UsuarioServiceImpl.class
